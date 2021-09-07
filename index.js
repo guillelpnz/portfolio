@@ -60,7 +60,7 @@ const guille = new THREE.Mesh(
 
 scene.add(guille)
 
-const moonTexture = new THREE.TextureLoader().load('moon.jpg')
+const moonTexture = new THREE.TextureLoader().load('https://github.com/guillelpnz/portfolio/blob/master/moon.jpg')
 const normalTexture = new THREE.TextureLoader().load('normal.jpg')
 
 const moon = new THREE.Mesh(
