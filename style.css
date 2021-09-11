@@ -16,10 +16,6 @@ canvas {
   font-style: normal;
 }
 
-p{
-  font-weight: 20vw;
-}
-
 main {
   width: 100vw;
   color: white;
@@ -49,7 +45,6 @@ canvas {
 
 header {
   background: var(--dark-bg);
-  font-size: 2.5rem;
   margin-left: 10%;
   margin-right: 10%;
   display: flex;
@@ -57,11 +52,10 @@ header {
   justify-content: center;
   align-items: center;
   align-self: center;
-  flex-wrap:wrap;
+  font-size: 1.25rem;
 }
 
 section {
-  grid-column: 2 / 8;
   padding: 1rem;
   background: var(--dark-bg);
   font-size: 1.25rem;
