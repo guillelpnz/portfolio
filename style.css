@@ -16,6 +16,9 @@ canvas {
   font-style: normal;
 }
 
+p{
+  font-weight: 90vw;
+}
 
 main {
   width: 100vw;
