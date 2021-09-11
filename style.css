@@ -52,10 +52,12 @@ header {
   justify-content: center;
   align-items: center;
   align-self: center;
-  font-size: 1.25rem;
+  font-size: 2rem;
+  padding: 1rem;
 }
 
 section {
+  grid-column: 2 / 8;
   padding: 1rem;
   background: var(--dark-bg);
   font-size: 1.25rem;
